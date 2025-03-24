@@ -1,0 +1,125 @@
+.innerheading {
+    color: pink;
+}
+
+body {
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: lighten;
+    background-position: centre;
+    background-size: cover;
+}
+
+#head {
+    color: aquamarine
+}
+
+.overheading {
+    color: aqua;
+    font-size: 200px;
+
+}
+
+.overf {
+    background-color: bisque;
+    color: aqua;
+    font-size: 70px;
+    width: 600px;
+    height: 600px;
+    overflow: scroll;
+
+}
+
+.selectors>p {
+    color: navy;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+.headingx {
+    text-align: center;
+    z-index: -9;
+    animation-name: mine;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes mine {
+    0% {
+        transform: translateX(-100px);
+    }
+
+    50% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: translateX(-100px);
+    }
+}
+
+.headingy {
+    text-align: center;
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+
+   
+}
+
+/*
+.heading{
+   writing-mode: horizontal-tb | vertical-rl | vertical-lr | sideways-lr | sideways-rl;
+}
+*/
+/*
+element.heading {
+
+div[Attributes Style] {
+    text-align: -webkit-center;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    width: 100%;
+}*/
+/*
+.heading
+  {
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+}
+
+.box:hover {
+  animation-play-state: running;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
+*/
+
+.dear {
+    shape-outside: circle(54deg);
+
+
+}
